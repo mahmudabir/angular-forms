@@ -7,13 +7,15 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
 import { DemoFormWithValidationsExplicitComponent } from './demo-form-with-validations-explicit/demo-form-with-validations-explicit.component';
 import { DemoFormWithCustomValidationComponent } from './demo-form-with-custom-validation/demo-form-with-custom-validation.component';
+import { DemoFormWithEventsComponent } from './demo-form-with-events/demo-form-with-events.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DemoFormSkuComponent,
     DemoFormWithValidationsExplicitComponent,
-    DemoFormWithCustomValidationComponent
+    DemoFormWithCustomValidationComponent,
+    DemoFormWithEventsComponent
   ],
   imports: [
     BrowserModule,
